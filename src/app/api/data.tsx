@@ -39,7 +39,7 @@ export const ExpertData: {
     {
       profession: 'Software Engineering',
       name: 'Ababil Pusano',
-      imgSrc: '/images/Expert/girl.png',
+      imgSrc: '/images/Expert/ababil.svg',
     },
     {
       profession: 'Manajemen Agribisnis',
@@ -49,17 +49,17 @@ export const ExpertData: {
     {
       profession: 'Akutansi',
       name: 'Nur Shabrina Alyaa Putri',
-      imgSrc: '/images/Expert/girl.png',
+      imgSrc: '/images/Expert/bina.svg',
     },
     {
       profession: 'Akutansi',
       name: 'Muhamad Zaky Rasya',
-      imgSrc: '/images/Expert/boyone.svg',
+      imgSrc: '/images/Expert/zaky.svg',
     },
     {
       profession: 'Environmental Engineering',
       name: 'Luvy Dellarosa',
-      imgSrc: '/images/Expert/boytwo.svg',
+      imgSrc: '/images/Expert/della.svg',
     },
   ]
 

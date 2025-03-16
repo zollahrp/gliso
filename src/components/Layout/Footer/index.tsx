@@ -12,8 +12,8 @@ const Footer: FC = () => {
           <div className="col-span-2">
             <Logo />
             <p className="text-xs font-medium text-grey dark:text-white/50 mt-5 mb-16 max-w-70%">
-              Open an account in minutes, get full financial
-              control for much longer.
+              Detergen pertama dengan kombinasi bahan ramah lingkungan.
+              Efektif menghilangkan noda, membasmi bakteri, dan lembut di kulit.
             </p>
             <div className="flex gap-6 items-center">
               {/* <Link href="#" className="group bg-white hover:bg-primary rounded-full shadow-xl p-3">
@@ -86,19 +86,16 @@ const Footer: FC = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="">
             <h4 className="text-black dark:text-white mb-9 font-semibold text-xl">Information</h4>
             <ul>
               <li className="pb-5">
-                <Link
-                  href="#"
-                  className="text-black/70 dark:text-white/70 dark:hover:text-primary hover:text-primary text-base"
-                >
-                  Help/FAQ
-                </Link>
+                <p className="text-black/70 dark:text-white/70 text-base">
+                  gliso.care@gmail.com
+                </p>
               </li>
-              <li className="pb-5">
+              {/* <li className="pb-5">
                 <Link
                   href="#"
                   className="text-black/70 dark:text-white/70 dark:hover:text-primary hover:text-primary text-base"
@@ -129,9 +126,9 @@ const Footer: FC = () => {
                 >
                   Partners
                 </Link>
-              </li>
+              </li> */}
             </ul>
-          </div> */}
+          </div>
           <div className="">
             <h4 className="text-black dark:text-white mb-9 font-semibold text-xl">More</h4>
             <ul>

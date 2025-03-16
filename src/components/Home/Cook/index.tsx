@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Cook = () => {
 
     return (
-        <section className='relative' id="cook-section">
+        <section className='relative' id="tentang-section">
             <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md">
                 <div className='absolute right-0 bottom-[-18%] hidden lg:block'>
                     <Image src={'/images/cook/baju.png'} alt="baju-image" width={463} height={622} />
@@ -21,7 +21,7 @@ const Cook = () => {
                         </h2>
                         <p className='text-black/50 dark:text-white/50 md:text-lg font-normal mb-10 text-start mt-2'>Kami percaya bahwa pakaian bersih tak harus mengorbankan lingkungan. Dengan formulasi ramah lingkungan, Gliso membersihkan noda membandel tanpa meninggalkan residu berbahaya. Saatnya beralih ke deterjen yang lebih aman, efektif, dan peduli pada bumi. </p>
                         <p className='text-black/50 dark:text-white/50 md:text-lg font-normal mb-10 text-start mt-1'>Sebagai bagian dari komitmen kami terhadap keberlanjutan, Gliso menggunakan bahan-bahan alami yang biodegradable, menjaga kebersihan pakaian sekaligus merawat lingkungan.</p>
-                        <button className='text-xl font-medium rounded-full text-white py-5 px-6 bg-primary lg:px-10 mr-6 w-fit border border-primary hover:bg-transparent hover:text-primary'>Learn more</button>
+                        <button className='text-xl font-medium rounded-full text-white py-5 px-6 bg-primary lg:px-10 mr-6 w-fit border border-primary hover:bg-transparent hover:text-primary'>Pelajari</button>
                     </div>
                 </div>
             </div>
