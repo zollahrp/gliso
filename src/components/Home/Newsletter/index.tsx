@@ -21,7 +21,7 @@ const Newsletter = () => {
                 "service_kopklle",
                 "template_ih6cbza",
                 templateParams,
-                "mhuMofSkkJvPdDQw8"
+                process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
             );
     
             Swal.fire({
