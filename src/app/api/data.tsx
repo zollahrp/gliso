@@ -57,7 +57,7 @@ export const ExpertData: {
       imgSrc: '/images/Expert/zaky.svg',
     },
     {
-      profession: 'Environmental Engineering',
+      profession: 'Teknik Lingkungan',
       name: 'Luvy Dellarosa',
       imgSrc: '/images/Expert/della.svg',
     },

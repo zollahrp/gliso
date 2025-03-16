@@ -42,7 +42,7 @@ const Footer: FC = () => {
               </Link> */}
             </div>
           </div>
-          {/* <div className="">
+          <div className="">
             <h4 className="text-black dark:text-white mb-9 font-semibold text-xl">Company</h4>
             <ul>
               <li className="pb-5">
@@ -50,10 +50,10 @@ const Footer: FC = () => {
                   href="#"
                   className="text-black/70 dark:text-white/70 hover:text-primary dark:hover:text-primary text-base"
                 >
-                  About
+                  Tentang
                 </Link>
               </li>
-              <li className="pb-5">
+              {/* <li className="pb-5">
                 <Link
                   href="#"
                   className="text-black/70 dark:text-white/70 hover:text-primary dark:hover:text-primary text-base"
@@ -84,9 +84,9 @@ const Footer: FC = () => {
                 >
                   How we work?
                 </Link>
-              </li>
+              </li> */}
             </ul>
-          </div> */}
+          </div>
           <div className="">
             <h4 className="text-black dark:text-white mb-9 font-semibold text-xl">Information</h4>
             <ul>
