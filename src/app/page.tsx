@@ -7,7 +7,8 @@ import Gallery from "@/components/Home/Gallery";
 import Newsletter from "@/components/Home/Newsletter";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Gliso",
+  title: "Gliso - Detergen ramah lingkungan",
+  description: "Gliso, detergen dengan kapsul larut air. Bersih maksimal, limbah minimal!",
 };
 
 export default function Home() {
