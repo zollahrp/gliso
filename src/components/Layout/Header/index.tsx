@@ -6,7 +6,7 @@ import { headerData } from "../Header/Navigation/menuData";
 import Logo from "./Logo";
 import Image from "next/image";
 import HeaderLink from "../Header/Navigation/HeaderLink";
-import MobileHeaderLink from "../Header/Navigation/MobileHeaderLink";
+// import MobileHeaderLink from "../Header/Navigation/MobileHeaderLink";
 import Signin from "@/components/Auth/SignIn";
 import SignUp from "@/components/Auth/SignUp";
 import { useTheme } from "next-themes";
@@ -82,11 +82,14 @@ const Header: React.FC = () => {
               <HeaderLink key={index} item={item} />
             ))}
           </nav>
-          <div className="flex items-center gap-4">
-            <Link href="https://wa.me/6281312343829" className="text-lg font-medium hover:text-primary">
+          <div className="flex flex-wrap items-center gap-2 md:gap-4 px-4 md:px-6">
+            <Link
+              href="https://wa.me/6281312343829"
+              className="text-lg font-medium hover:text-primary flex items-center"
+            >
               <Icon
                 icon="solar:phone-bold"
-                className="text-primary text-3xl inline-block me-2"
+                className="text-primary text-2xl md:text-3xl inline-block me-1 md:me-2"
               />
               +62 813-1234-3829
             </Link>
@@ -148,15 +151,15 @@ const Header: React.FC = () => {
                 </div>
               </div>
             )} */}
-            <button
+            {/* <button
               onClick={() => setNavbarOpen(!navbarOpen)}
               className="block lg:hidden p-2 rounded-lg"
               aria-label="Toggle mobile menu"
             >
-              <span className="block w-6 h-0.5 bg-white"></span>
-              <span className="block w-6 h-0.5 bg-white mt-1.5"></span>
-              <span className="block w-6 h-0.5 bg-white mt-1.5"></span>
-            </button>
+              <span className="block w-6 h-0.5 bg-black"></span>
+              <span className="block w-6 h-0.5 bg-black mt-1.5"></span>
+              <span className="block w-6 h-0.5 bg-black mt-1.5"></span>
+            </button> */}
           </div>
         </div>
         {navbarOpen && (
@@ -179,7 +182,7 @@ const Header: React.FC = () => {
               aria-label="Close menu Modal"
             ></button>
           </div>
-          <nav className="flex flex-col items-start p-4">
+          {/* <nav className="flex flex-col items-start p-4">
             {headerData.map((item, index) => (
               <MobileHeaderLink key={index} item={item} />
             ))}
@@ -205,7 +208,7 @@ const Header: React.FC = () => {
                 Sign Up
               </Link>
             </div>
-          </nav>
+          </nav> */}
         </div>
       </div>
     </header>
