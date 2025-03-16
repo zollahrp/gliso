@@ -16,19 +16,19 @@ const Hero = () => {
                 Detergen pertama dengan kombinasi bahan ramah lingkungan. <br />
                 Efektif menghilangkan noda, membasmi bakteri, dan lembut di kulit.
             </p>
-            <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-              <Link
+            <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-3">
+            <Link
                 href="#cook-section"
-                className="text-xl font-medium rounded-full text-white py-4 px-6 bg-primary hover:text-primary border border-primary hover:bg-transparent text-center sm:w-auto"
-              >
+                className="text-base sm:text-xl font-medium rounded-full text-white py-3 sm:py-4 px-5 sm:px-6 bg-primary hover:text-primary border border-primary hover:bg-transparent text-center sm:w-auto"
+            >
                 Pesan Sekarang
-              </Link>
-              <Link
+            </Link>
+            <Link
                 href="#about-section"
-                className="border border-primary rounded-full text-xl font-medium items-center py-4 px-10 text-primary hover:text-white hover:bg-primary text-center sm:w-auto"
-              >
+                className="border border-primary rounded-full text-base sm:text-xl font-medium items-center py-3 sm:py-4 px-8 sm:px-10 text-primary hover:text-white hover:bg-primary text-center sm:w-auto"
+            >
                 Jelajahi
-              </Link>
+            </Link>
             </div>
           </div>
 

@@ -16,14 +16,6 @@ const Footer: FC = () => {
               Efektif menghilangkan noda, membasmi bakteri, dan lembut di kulit.
             </p>
             <div className="flex gap-6 items-center">
-              {/* <Link href="#" className="group bg-white hover:bg-primary rounded-full shadow-xl p-3">
-                <Icon
-                  icon="fa6-brands:facebook-f"
-                  width="16"
-                  height="16"
-                  className=" group-hover:text-white text-black"
-                />
-              </Link> */}
               <Link href="https://www.instagram.com/gliso.official/" className="group bg-white hover:bg-primary rounded-full shadow-xl p-3">
                 <Icon
                   icon="fa6-brands:instagram"
@@ -145,16 +137,21 @@ const Footer: FC = () => {
             </ul>
           </div>
         </div>
-        <div className="border-t border-grey/15 dark:border-white/15 py-10 flex justify-between items-center">
+        <div className="border-t border-grey/15 dark:border-white/15 py-10 flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-4">
           <p className="text-sm text-black/70 dark:text-white/70">
             @2025 - Gliso. Developed by Tob Tob Tobitob Team.
           </p>
 
-          <div className="">
-            <Link href="#" className="text-sm text-black/70 dark:text-white/70 px-5 border-r border-grey/15 dark:border-white/15 hover:text-primary dark:hover:text-primary">Privacy policy</Link>
-            <Link href="#" className="text-sm text-black/70 dark:text-white/70 px-5 hover:text-primary dark:hover:text-primary">Terms & conditions</Link>
+          <div className="flex flex-col sm:flex-row gap-2 sm:gap-5">
+            <Link href="#" className="text-sm text-black/70 dark:text-white/70 border-b sm:border-b-0 sm:border-r border-grey/15 dark:border-white/15 pb-1 sm:pb-0 sm:px-5 hover:text-primary dark:hover:text-primary">
+              Privacy policy
+            </Link>
+            <Link href="#" className="text-sm text-black/70 dark:text-white/70 pb-1 sm:pb-0 sm:px-5 hover:text-primary dark:hover:text-primary">
+              Terms & conditions
+            </Link>
           </div>
         </div>
+
       </div>
     </footer>
   );
