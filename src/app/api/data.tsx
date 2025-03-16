@@ -4,22 +4,22 @@ export const FeaturesData: {
   subheading: string;
 }[] = [
     {
-      imgSrc: '/images/features/featureOne.svg',
+      imgSrc: '/images/Features/featureOne.svg',
       heading: "Kemasan kapsul larut air",
       subheading: "Takaran pas, tanpa ribet",
     },
     {
-      imgSrc: '/images/features/featureTwo.svg',
+      imgSrc: '/images/Features/featureTwo.svg',
       heading: "Bahan pembersih alami",
       subheading: "Bersih maksimal, tetap ramah lingkungan",
     },
     {
-      imgSrc: '/images/features/featureThree.svg',
+      imgSrc: '/images/Features/featureThree.svg',
       heading: "99,9% bunuh kuman & bakteri",
       subheading: "Higenis setiap saat",
     },
     {
-      imgSrc: '/images/features/featureFour.svg',
+      imgSrc: '/images/Features/featureFour.svg',
       heading: "Lembut di tangan",
       subheading: "Tidak panas, aman digunakan",
     }
